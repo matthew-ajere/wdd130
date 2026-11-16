@@ -72,3 +72,8 @@ nav, p, section, article {
   width: 125px;
   margin-left: 16px;
 }
+.hero { position: relative; }
+.hero > img { width: 100%; height: 400px; object-fit: cover; display: block; }
+.adventure { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; }
+.adventure figure { margin: 0; }
+.adventure img { width: 100%; height: 150px; object-fit: cover; }
