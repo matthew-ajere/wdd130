@@ -74,9 +74,9 @@ nav, p, section, article {
 }
 .hero { position: relative; }
 .hero > img { width: 100%; height: 400px; object-fit: cover; display: block; }
-.adventure { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; }
-.adventure figure { margin: 0; }
-.adventure img { width: 100%; height: 150px; object-fit: cover; }
+.adventures { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; }
+.adventures figure { margin: 0; }
+.adventures img { width: 100%; height: 150px; object-fit: cover; }
 * { box-sizing: border-box; }
 body { overflow-x: hidden; }
 .hero h1 { left: 0; right: 0; width: auto; }
