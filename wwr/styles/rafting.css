@@ -241,3 +241,37 @@ footer p {
         width: 100%;
     }
 } 
+/* FIX HISTORY + HERO FOR PHONE */
+@media (max-width: 860px) {
+    .hero {
+        height: auto !important;
+        display: block !important;
+    }
+    .hero img {
+        height: auto !important;
+        display: block;
+    }
+    .hero article {
+        position: static !important;
+        transform: none !important;
+        margin: 0 !important;
+        width: auto !important;
+    }
+    .history {
+        display: block !important;
+        padding: 15px !important;
+    }
+    .history h2,
+    .history p,
+    .history img {
+        display: block !important;
+        width: 100% !important;
+        margin: 0 0 15px 0 !important;
+    }
+    .history img {
+        height: auto !important;
+    }
+    section {
+        margin-bottom: 10px !important;
+    }
+}
