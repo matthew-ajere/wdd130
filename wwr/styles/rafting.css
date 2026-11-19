@@ -82,16 +82,16 @@ nav, p, section, article {
 
 header {
   display: grid;
-  grid-template-columns: 150px 1fr;
+  grid-template-columns: 80px 1fr;
   align-items: center;
   background-color: var(--primary-color);
   padding: 10px;
 }
 
 header img {
-  width: 120px;
+  width: 70px;
   height: auto;
-}
+} 
 
 header nav {
   display: flex;
