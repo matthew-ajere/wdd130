@@ -171,3 +171,43 @@ footer p {
   display: flex;
   gap: 10px;
 }
+* {
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+header, main, footer {
+  width: 100% !important;
+  max-width: 840px;
+}
+header {
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.hero, .hero h1, .hero article {
+  position: static !important;
+}
+.hero article img {
+  float: none !important;
+  width: 100% !important;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+.history, .adventures, footer {
+  display: block !important;
+  text-align: center;
+}
+.history img, .adventures img, .hero img {
+  width: 100% !important;
+  max-width: 100%;
+  height: auto;
+}
+.adventures figure {
+  margin: 0 0 20px 0;
+}
+.socialmedia img {
+  width: 30px !important;
+  height: 30px !important;
+}
